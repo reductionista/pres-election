@@ -6,10 +6,7 @@ This expands on that through some further data cleaning, handling of census data
 # To run
 Place in your favorite iPython / Jupyter notebook environment.
 
-If you don't have one, get [Docker](http://docker.com) and use:
-
+If you don't have one, get [Docker](http://docker.com) and clone the Jupyter/docker-stats repo.
+Build up to the scipy-notebook image, which is then used by the script:
 ```
 ./run-notebook.sh
-```
-
-in a shell based environment.  Or open up the shell command and issue the docker command in a Windows environment.
